@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="../static/Contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="/"><img src="../static/images/logo.png" width="125px" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="menu-item">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/product">Product</a></li>
+                        <li><a href="/About">About</a></li>
+                        <li><a href="/Contact">Contact</a></li>
+                        <li><a href="/Account">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="/cart"><img src="../static/images/cart.png" width="30px" height="30px" alt=""></a>
+                <img src="../static/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- -----COntact------ -->
+
+
+    <div class="Contact ">
+        <div id="Contact">
+            <div class="form">
+                <form action="/Contact" , method="post">
+                    <input type="text" name="name" id="name"  onsubmit="validEmail()" placeholder="Enter your name">
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                    <input type="text" name="phone" id="phone" placeholder="Enter your phone">
+                    <input type="text" name="address" id="address" placeholder="Enter your address">
+                    <div class="button">
+                        <button class="btn form-button"  onclick="validEmail()">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../static/index.js"></script>
+<script src="../static/Contact.js"></script>
+
+</html>

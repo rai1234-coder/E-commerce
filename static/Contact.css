@@ -1,0 +1,33 @@
+.Contact{
+    width: 70%;
+    margin: auto;
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.form form input{
+    width: 70%;
+    margin: 10px 20px;
+    padding:6px 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 9px;
+
+}
+
+.form form input {
+    font-size: 16px;
+}
+
+.button{
+    text-align: center;
+
+}
+

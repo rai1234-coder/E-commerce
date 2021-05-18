@@ -1,0 +1,16 @@
+#About{
+    margin-top: 30px;
+}
+
+.About{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+#About p{
+
+    text-align: center;
+}

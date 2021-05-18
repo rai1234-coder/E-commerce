@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    link(rel="stylesheet",
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css",
+    integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni", crossorigin="anonymous")
+    <link rel="stylesheet" href="../static/Product_detail.css">
+    <link rel="stylesheet" href="../static/Product.css">
+    <link rel="stylesheet" href="../static/cart.css">
+    <title> All product of E-commerce website</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="/"><img src="../static/images/logo.png" width="125px" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="menu-item">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/product">Product</a></li>
+                        <li><a href="/About">About</a></li>
+                        <li><a href="/Contact">Contact</a></li>
+                        <li><a href="/Account">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="/cart"><img src="../static/images/cart.png" width="30px" height="30px" alt=""></a>
+                <img src="../static/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- -------------cart item detail------------ -->
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../static/images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Red printed T-shirt</p>
+                            <small>Price:$60.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../static/images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Red printed T-shirt</p>
+                            <small>Price:$50.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../static/images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Red printed T-shirt</p>
+                            <small>Price:$70.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$70.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$200</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+    <!-- --------------footer----------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for android and ios mobile phone</p>
+                    <div class="applogo">
+                        <img src="../static/images/play-store.png" alt="">
+                        <img src="../static/images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../static/images/logo-white.png" alt="">
+                    <p>Purpose is to sustainable make the pleasue and benefits of sports Accessible to the Many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful:Links</h3>
+                    <ul>
+                        <li>Coupens</li>
+                        <li>Blog post</li>
+                        <li>Return policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - E-commerce website</p>
+        </div>
+    </div>
+</body>
+<script src="../static/index.js"></script>
+<script src="../static/index.js"></script>
+</html>
